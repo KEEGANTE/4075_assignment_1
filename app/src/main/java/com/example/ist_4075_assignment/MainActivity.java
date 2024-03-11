@@ -91,7 +91,7 @@ Button btn_calculate;
             discount_tot=total*30/100;
         }
         int net=total-discount_tot;
-        editTextText9.setText(String.valueOf(discount_tot)); //display the number
-        editTextText11.setText(String.valueOf(net)); //display the number
+        editTextText9.setText(String.valueOf(discount_tot)); //display the discount
+        editTextText11.setText(String.valueOf(net)); //display the net
     }
 }
